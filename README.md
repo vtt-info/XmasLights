@@ -1,2 +1,2 @@
 # XmasLights
-MicroPython Xmas Lightsd
+MicroPython Xmas Lights implemented on a ESP32 and 240 element NeoPixel strip.
