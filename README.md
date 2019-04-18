@@ -3,14 +3,16 @@ This project implements some Christmas Lights in MicroPython on an ESP32 and a N
 
 ## Hardware
 ### Parts List
-[ESP32 Board](https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/overview)  
+* [ESP32 Board](https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/overview)  
 Adafruit HUZZAH32 ESP32 Feather board
-
-[NeoPixel Strip](https://www.adafruit.com/product/1138?length=4)  
+* [NeoPixel Strip](https://www.adafruit.com/product/1138?length=4)  
 4 metre NeoPixel RGB LED Strip with 60 LED's per metre
-
-[Level Shifter](https://www.adafruit.com/product/757)  
+* [Level Shifter](https://www.adafruit.com/product/757)  
 Bi-Directional Level Shifter
+* 5V 10A Power Supply
+* 2pin JST-SM connectors
+* Anderson Powerpole Connectors
+* 
 
 ## Software
 ### Light Patterns
