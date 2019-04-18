@@ -99,19 +99,19 @@ class LIGHTS:
 
         """
         if angle < 85:
-            return( int(angle * 3),				# red
-                    int(255 - (angle * 3)),		# green
-                    0)							# blue
+            return( int(angle * 3),             # red
+                    int(255 - (angle * 3)),     # green
+                    0)                          # blue
         elif angle < 170:
             angle -= 85
-            return( int(255 - (angle * 3)),		# red
-                    0,							# green
-                    int(angle * 3))				# blue
+            return( int(255 - (angle * 3)),     # red
+                    0,                          # green
+                    int(angle * 3))             # blue
         else:
             angle -= 170
-            return( 0,							# red
-                    int(angle * 3),				# green
-                    int(255 - angle * 3))    	# blue
+            return( 0,                          # red
+                    int(angle * 3),             # green
+                    int(255 - angle * 3))       # blue
 
 
     def pattern_RainbowTrain(self, timeout=60):
